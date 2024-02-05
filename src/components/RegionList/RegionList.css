@@ -1,0 +1,17 @@
+.region-list__button {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #F2F6F8;
+    background-color: #70A9FF;
+    padding: 12px 123px 12px 90px;
+    border: none;
+    border-radius: 20px;
+}
+.region-list__button-img{
+    padding-left: 10px;
+}
+.region-list__select {
+    display: flex;
+}

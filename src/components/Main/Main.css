@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 1280px;
+    margin: 0 auto;
+    column-gap: 25px;
+}
+
+.main__title {
+    font-family: Palatino Linotype;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.main__search {
+    display: flex;
+    column-gap: 53px;
+    padding-bottom: 43px;
+}
