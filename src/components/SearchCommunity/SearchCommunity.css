@@ -8,7 +8,6 @@
     width: 791px;
     border: none;
     border-radius: 20px;
-
 }
 
 .search-community__input {
@@ -19,4 +18,33 @@
     border: none;
     background-color: #F2F6F8;
     width: 750px;
+    padding-left: 10px;
+}
+
+.search-community__input-img {
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1279px) {
+    .search-community__container {
+        width: 540px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+    .search-community__container {
+        width: 300px;
+    }
+
+    .search-community__input-img {
+        padding-left: 0px;
+    }
+
+    .search-community__input {
+        font-weight: 700;
+        line-height: 18px;
+        font-size: 14px;
+        width: 320px;
+        padding-left: 10px;
+    }
 }

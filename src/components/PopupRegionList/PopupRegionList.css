@@ -1,0 +1,58 @@
+.popup__select {
+    margin: 0;
+    padding-left: 29px;
+}
+
+.popup__container_block {
+    display: none;
+    opacity: 0;
+}
+
+.popup__container {
+    background-color: #F2F6F8;
+    position: absolute;
+    display: flex;
+    left: 0;
+    width: 356px;
+    height: 384px;
+    border-radius: 20px;
+}
+
+.popup__text {
+    color: #232323;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.popup__country-item {
+    text-align: left;
+}
+
+.popup__checkbox {
+    width: 20px;
+    height: 20px;
+    color: #232323;
+}
+
+.popup__regions {
+    padding-left: 20px;
+}
+
+.popup__country-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.popup__regions-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+    .popup__container {
+        width: 320px;
+    }
+}

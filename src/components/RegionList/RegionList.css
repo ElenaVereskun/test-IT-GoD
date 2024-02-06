@@ -5,13 +5,27 @@
     line-height: 23px;
     color: #F2F6F8;
     background-color: #70A9FF;
-    padding: 12px 123px 12px 90px;
+    padding: 12px 90px 12px 100px;
     border: none;
     border-radius: 20px;
+    display: flex;
+    position:relative;
 }
 .region-list__button-img{
     padding-left: 10px;
+    padding-top: 8px;
 }
 .region-list__select {
     display: flex;
+}
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+    .region-list__button {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        padding: 14px 98px 14px 88px;
+    }
+    .region-list__button-img{
+        padding-top: 4px;
+    }
 }
