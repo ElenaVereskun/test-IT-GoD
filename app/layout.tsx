@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body className={inter.className}
-      style={{margin:'0'}}>
+        style={{ margin: '0' }}>
         <div style={{
           display: 'flex',
           flexDirection: 'column'

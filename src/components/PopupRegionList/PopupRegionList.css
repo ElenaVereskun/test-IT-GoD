@@ -37,6 +37,9 @@
     height: 20px;
     color: #232323;
 }
+.popup__checkbox:checked {
+    background-color: #FFD670;
+}
 
 .popup__regions {
     padding-left: 20px;

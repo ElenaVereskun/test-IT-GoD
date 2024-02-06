@@ -4,6 +4,7 @@ import Link from 'next/link';
 import ComImage from '@/src/images/community__image.svg'
 
 export default function Community() {
+    
     return (
         <section className='community'>
             <div className='community__info'>
