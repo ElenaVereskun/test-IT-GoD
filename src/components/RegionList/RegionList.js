@@ -3,6 +3,7 @@ import { React, useState,useEffect } from "react";
 import Image from "next/image";
 import SelectImg from '@/src/images/list-check.svg';
 import PopupRegionList from '@/src/components/PopupRegionList/PopupRegionList';
+import regionList from './regionList.module.css';
 
 
 export default function RegionList() {
@@ -24,9 +25,9 @@ export default function RegionList() {
     }, []);
     
     return (
-        <section className="region-list">
-            <button className="region-list__button" onClick={handleListOpen}>Регион показов
-                <Image src={SelectImg} className="region-list__button-img" />
+        <section>
+            <button className={regionList.button} onClick={handleListOpen}>Регион показов
+                <Image src={SelectImg} className={regionList.buttonImg} />
                 <PopupRegionList isListOpen={isListOpen} />
             </button>
         </section>

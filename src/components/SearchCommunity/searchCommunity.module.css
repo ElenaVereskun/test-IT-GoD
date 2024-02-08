@@ -1,4 +1,4 @@
-.search-community__container {
+.container {
     display: flex;
     color: #232323;
     background-color: #F2F6F8;
@@ -10,7 +10,7 @@
     border-radius: 20px;
 }
 
-.search-community__input {
+.input {
     font-family: Mulish;
     font-size: 18px;
     font-weight: 400;
@@ -21,26 +21,26 @@
     padding-left: 10px;
 }
 
-.search-community__input-img {
+.inputImg {
     padding-left: 15px;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1279px) {
-    .search-community__container {
+    .container {
         width: 540px;
     }
 }
 
 @media screen and (min-width: 360px) and (max-width: 1000px) {
-    .search-community__container {
+    .container {
         width: 300px;
     }
 
-    .search-community__input-img {
+    .inputImg {
         padding-left: 0px;
     }
 
-    .search-community__input {
+    .input {
         font-weight: 700;
         line-height: 18px;
         font-size: 14px;

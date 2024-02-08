@@ -1,13 +1,14 @@
 import { React } from 'react';
 import Image from 'next/image';
 import DetailsPhoto from '@/src/images/detailsPhoto.svg';
+import details from './details.module.css';
 
 export default function Details() {
     return (
-        <section className='details'>
-            <h1 className='details__title'>Московская православная община</h1>
-            <div className='details__container'>
-                <p className='details__info'>
+        <section className={details.details}>
+            <h1 className={details.title}>Московская православная община</h1>
+            <div className={details.container}>
+                <p className={details.info}>
                     Равным образом, социально-экономическое развитие играет важную роль в
                     формировании переосмысления внешнеэкономических политик. Не следует, однако,
                     забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности
@@ -19,9 +20,9 @@ export default function Details() {
                     превозмогая сложившуюся непростую экономическую ситуацию,
                 </p>
                 
-                <Image src={DetailsPhoto} className='details__photo' width={587} height={308} />
+                <Image src={DetailsPhoto} className={details.photo} width={587} height={308} />
             </div>
-            <p  className='details__info'>
+            <p  className={details.info}>
                     Равным образом, социально-экономическое развитие играет важную роль в
                     формировании переосмысления внешнеэкономических политик. Не следует, однако,
                     забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности
@@ -32,8 +33,8 @@ export default function Details() {
                     Есть над чем задуматься: многие известные личности,
                     превозмогая сложившуюся непростую экономическую ситуацию,
                 </p>
-            <p className='details__adress'>Москва, Ул. Мира 233</p>
-            <button className='details__button-website'>Посмотреть сайт</button>
+            <p className={details.adress}>Москва, Ул. Мира 233</p>
+            <button className={details.buttonWebsite}>Посмотреть сайт</button>
         </section>
     )
 }

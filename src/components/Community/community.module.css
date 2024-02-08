@@ -4,11 +4,11 @@
     padding-bottom: 32px;
 }
 
-.community__info {
+.info {
     color: #232323;
 }
 
-.community__title {
+.title {
     padding-left: 10px;
     margin: 0;
     font-family: Mulish;
@@ -18,7 +18,7 @@
     padding-top: 10px;
 }
 
-.community__about {
+.about {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -30,7 +30,7 @@
     width: 772px;
 }
 
-.community__adress {
+.adress {
     margin: 0;
     padding-bottom: 18px;
     padding-left: 10px;
@@ -41,12 +41,12 @@
     letter-spacing: 0em;
 }
 
-.community__buttons {
+.buttons {
     display: flex;
     column-gap: 25px;
 }
 
-.community__button-detail {
+.buttonDetail {
     padding: 10px 40px 10px 40px;
     background-color: #FFD670;
     border: none;
@@ -58,7 +58,7 @@
     cursor: pointer;
 }
 
-.community__button-website {
+.buttonWebsite {
     padding: 10px 40px 10px 40px;
     border: 2px solid #70A9FF;
     background-color: white;
@@ -70,30 +70,30 @@
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1279px) {
-    .community__about {
+    .about {
         width: 534px;
     }
 
-    .community__image {
+    .image {
         width: 366px;
         height: 294px;
         object-fit: cover;
         border-radius: 10px;
     }
 
-    .community__button-detail {
+    .buttonDetail {
         padding: 8px 40px 8px 40px;
         font-size: 14px;
         line-height: 18px;
     }
 
-    .community__button-website {
+    .buttonWebsite {
         padding: 2px 40px 5px 40px;
         font-size: 14px;
         line-height: 18px;
     }
 
-    .community__adress {
+    .adress {
         padding-bottom: 27px;
     }
 }
@@ -103,41 +103,41 @@
         flex-direction: column-reverse;
     }
 
-    .community__title {
+    .title {
         padding-top: 14px;
     }
 
-    .community__about {
+    .about {
         width: 320px;
         padding-bottom: 13px;
     }
 
-    .community__image {
+    .image {
         width: 320px;
         height: 250px;
         object-fit: cover;
         border-radius: 20px;
     }
 
-    .community__buttons {
+    .buttons {
         flex-direction: column;
         row-gap: 8px;
         width: 320px;
     }
 
-    .community__button-detail {
+    .buttonDetail {
         padding: 11px 83px 11px 83px;
         font-size: 14px;
         line-height: 18px;
     }
 
-    .community__button-website {
+    .buttonWebsite {
         padding: 11px 83px 8px 83px;
         font-size: 14px;
         line-height: 18px;
     }
 
-    .community__adress {
+    .adress {
         font-size: 14px;
         line-height: 18px;
     }

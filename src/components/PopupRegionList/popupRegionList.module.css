@@ -1,14 +1,14 @@
-.popup__select {
+.select {
     margin: 0;
     padding-left: 29px;
 }
 
-.popup__container_block {
+.containerBlock {
     display: none;
     opacity: 0;
 }
 
-.popup__container {
+.container {
     background-color: #F2F6F8;
     position: absolute;
     display: flex;
@@ -18,7 +18,7 @@
     border-radius: 20px;
 }
 
-.popup__text {
+.text {
     color: #232323;
     font-family: Mulish;
     font-size: 18px;
@@ -28,34 +28,34 @@
     text-align: left;
 }
 
-.popup__country-item {
+.countryItem {
     text-align: left;
 }
 
-.popup__checkbox {
+.checkbox {
     width: 20px;
     height: 20px;
     color: #232323;
 }
-.popup__checkbox:checked {
+.checkbox:checked {
     background-color: #FFD670;
 }
 
-.popup__regions {
+.regions {
     padding-left: 20px;
 }
 
-.popup__country-item {
+.countryItem {
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.popup__regions-item {
+.regionsItem {
     padding-top: 5px;
     padding-bottom: 5px;
 }
 @media screen and (min-width: 360px) and (max-width: 1000px) {
-    .popup__container {
+    .container {
         width: 320px;
     }
 }

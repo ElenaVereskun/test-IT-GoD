@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import InputSearchImg from '@/src/images/search-button.svg';
+import searchCommunity from './searchCommunity.module.css';
 
 export default function SearchCommunity() {
     return (
-        <section className="search-community">
-            <div className="search-community__container">
-                <Image src={InputSearchImg} className="search-community__input-img" />
-                <input className="search-community__input" placeholder='... Найти общину'>
+        <section>
+            <div className={searchCommunity.container}>
+                <Image src={InputSearchImg} className={searchCommunity.inputImg} />
+                <input className={searchCommunity.input} placeholder='... Найти общину'>
                 </input>
             </div>
         </section>

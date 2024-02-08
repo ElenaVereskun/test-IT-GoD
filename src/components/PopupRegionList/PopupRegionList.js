@@ -1,64 +1,65 @@
 import React from "react";
+import popup from './popupRegionList.module.css';
 
 export default function PopupRegionList({ isListOpen }) {
 
     return (
-        <div className={isListOpen ? 'popup__container' : 'popup__container_block'}>
-            <ol className="popup__select">
-                <li className="popup__country-item" >
-                    <div className="popup__country-container">
-                        <input className='popup__checkbox'
+        <div className={isListOpen ? `${popup.Container}` : `${popup.containerBlock}`}>
+            <ol className={popup.select}>
+                <li className={popup.countryItem} >
+                    <div className={popup.countryContainer}>
+                        <input className={popup.checkbox}
                             type="checkbox" />
-                        <label className='popup__text'>Россия</label>
+                        <label className={popup.text}>Россия</label>
                     </div>
-                    <ol className="popup__regions" >
-                        <li  className="popup__regions-item" >
-                            <input className='popup__checkbox'
+                    <ol className={popup.regions} >
+                        <li  className={popup.regionsItem} >
+                            <input className={popup.checkbox}
                                 type="checkbox" />
-                            <label className='popup__text'>Дальневосточный ФО</label>
+                            <label className={popup.text}>Дальневосточный ФО</label>
                         </li>
-                        <li  className="popup__regions-item" >
-                            <input className='popup__checkbox'
+                        <li  className={popup.regionsItem} >
+                            <input className={popup.checkbox}
                                 type="checkbox" />
-                            <label className='popup__text'>Приволжский ФО</label>
+                            <label className={popup.text}>Приволжский ФО</label>
                         </li>
-                        <li  className="popup__regions-item" >
-                            <input className='popup__checkbox'
+                        <li  className={popup.regionsItem} >
+                            <input className={popup.checkbox}
                                 type="checkbox" />
-                            <label className='popup__text'>Северо-Западный ФО</label>
+                            <label className={popup.text}>Северо-Западный ФО</label>
                         </li>
-                        <li  className="popup__regions-item" >
-                            <input className='popup__checkbox'
+                        <li  className={popup.regionsItem} >
+                            <input className={popup.checkbox}
                                 type="checkbox" />
-                            <label className='popup__text'>Северо-Кавказский ФО</label>
+                            <label className={popup.text}>Северо-Кавказский ФО</label>
                         </li>
-                        <li  className="popup__regions-item" >
-                            <input className='popup__checkbox'
+                        <li  className={popup.regionsItem} >
+                            <input className={popup.checkbox}
                                 type="checkbox" />
-                            <label className='popup__text'>Сибирский ФО</label>
+                            <label className={popup.text}>Сибирский ФО</label>
                         </li>
-                        <li  className="popup__regions-item" >
-                            <input className='popup__checkbox'
+                        <li  className={popup.regionsItem} >
+                            <input className={popup.checkbox}
                                 type="checkbox" />
-                            <label className='popup__text'>Уральский ФО</label>
+                            <label className={popup.text}>Уральский ФО</label>
                         </li>
-                        <li  className="popup__regions-item" >
-                            <input className='popup__checkbox'
+                        <li  className={popup.regionsItem} >
+                            <input className={popup.checkbox}
                                 type="checkbox" />
-                            <label className='popup__text'>Южный ФО</label>
+                            <label className={popup.text}>Южный ФО</label>
                         </li>
                     </ol>
 
                 </li>
-                <li className="popup__country-item" >
-                    <input className='popup__checkbox'
+                <li className={popup.countryItem} >
+                    <input className={popup.checkbox}
                         type="checkbox" />
-                    <label className='popup__text'>Беларусь</label>
+                    <label className={popup.text}>Беларусь</label>
                 </li>
-                <li className="popup__country-item" >
-                    <input className='popup__checkbox'
+                <li className={popup.countryItem} >
+                    <input className={popup.checkbox}
                         type="checkbox" />
-                    <label className='popup__text'>Украина</label>
+                    <label className={popup.text}>Украина</label>
                 </li>
             </ol>
         </div>
