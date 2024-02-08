@@ -13,6 +13,7 @@
     position: absolute;
     display: flex;
     left: 0;
+    top:47px;
     width: 356px;
     height: 384px;
     border-radius: 20px;
