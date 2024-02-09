@@ -19,12 +19,12 @@ export default function RegionList() {
     }
 
     return (
-        <section>
+        <section className={regionList.container}>
             <button className={regionList.button} onClick={handleListOpen}>Регион показов
                 <Image src={SelectImg} className={regionList.buttonImg} alt="выбор региона" />
-                <PopupRegionList
-                    isListOpen={isListOpen} />
             </button>
+            <PopupRegionList
+                isListOpen={isListOpen} />
         </section>
     )
 }
